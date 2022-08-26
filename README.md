@@ -7,15 +7,18 @@ This image is publicly available here:
 
 The original (unmodified) files can be found [here](https://github.com/jupyter/docker-stacks/tree/main/base-notebook)
 
-The code is almost identical except for three slight modifications:
+The code is almost identical except for four slight modifications:
 
 modification 1 is in **Dockerfile**:  
 ![](images/image_1.png)  
   
-modification 2 is in **start.sh** file:
+modification 2 is in **Dockerfile** (these lines were added):  
+![](images/image_5.png)  
+  
+modification 3 is in **start.sh** file:
 ![](images/image_2.png)  
   
-modification 3 is in **jupyter_server_config.py** file:
+modification 4 is in **jupyter_server_config.py** file:
 ![](images/image_4.png)  
   
 and you should be able to run sudo commands in the terminal  
