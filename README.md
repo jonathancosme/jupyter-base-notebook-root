@@ -15,10 +15,10 @@ modification 1 is in **Dockerfile**:
 modification 2 is in **Dockerfile** (these lines were added):  
 ![](images/image_5.png)  
   
-modification 3 is in **start.sh** file:
+modification 3 is in **start.sh** file:  
 ![](images/image_2.png)  
   
-modification 4 is in **jupyter_server_config.py** file:
+modification 4 is in **jupyter_server_config.py** file:  
 ![](images/image_4.png)  
   
 and you should be able to run sudo commands in the terminal  
