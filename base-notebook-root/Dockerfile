@@ -168,6 +168,6 @@ HEALTHCHECK  --interval=15s --timeout=3s --start-period=5s --retries=3 \
 
 WORKDIR "${HOME}"
 
-ENV GRANT_SUDO=yes
-ENV CHOWN_HOME=yes
-ENV CHOWN_HOME_OPTS='-R'
+RUN export GRANT_SUDO=yes
+RUN export CHOWN_HOME=yes
+RUN export CHOWN_HOME_OPTS='-R'
